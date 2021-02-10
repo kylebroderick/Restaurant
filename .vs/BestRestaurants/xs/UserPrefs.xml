@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{00DF0B04-CEDD-400D-A37D-99B697D94C60}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BestRestaurants/wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+    <Files>
+      <File FileName="BestRestaurants/Views/Shared/_Layout.cshtml" Line="13" Column="19" />
+      <File FileName="BestRestaurants/Views/Home/TopFive.cshtml" />
+      <File FileName="BestRestaurants/Views/Home/EnterRestaurant.cshtml" />
+      <File FileName="BestRestaurants/wwwroot/lib/bootstrap/dist/css/bootstrap.css" Line="546" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BestRestaurants" expanded="True">
+            <Node name="BestRestaurants" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="img" expanded="True" />
+                <Node name="lib" expanded="True">
+                  <Node name="bootstrap" expanded="True">
+                    <Node name="dist" expanded="True">
+                      <Node name="css" expanded="True">
+                        <Node name="bootstrap.css" selected="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BestRestaurants PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

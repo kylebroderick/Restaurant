@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Top 5 Best Restaurants in Provo</title>
+        <meta name="viewport" content="width=device-width" />
+        <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+        
+    </head>
+
+    <body>
+        <header>
+            <br />
+            <h1 class="text-center">@ViewBag.Title</h1>
+
+            <menu>
+                <ul>
+                    <li><a asp-controller="Home" asp-action="TopFive">Top 5 Restaurants</a></li>
+                    <li><a asp-controller="Home" asp-action="EnterRestaurant">Enter Restaurant</a></li>
+                    <li><a asp-controller="Home" asp-action="RestaurantList">View List of Submitted Restaurants</a></li>
+                </ul>
+            </menu>
+        </header>
+
+        @RenderBody()
+
+        <br />
+        <br />
+        <footer>Kyle Broderick, Copyright 2021</footer>
+    </body>
+</html>
+

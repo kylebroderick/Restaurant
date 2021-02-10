@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Page to Enter Restaurants";
+}
+
+@model BestRestaurants.Models.EnterRestaurant
+
+
+
+<form asp-action="EnterRestaurant" method="post">
+
+
+    <div>
+        <label asp-for="Name">Your Name:</label>
+        <input asp-for="Name" />
+    </div>
+    <br />
+
+    <div>
+        <label asp-for="RestaurantName">Restaurant Name:</label>
+        <input asp-for="RestaurantName" />
+    </div>
+    <br />
+
+    <div>
+        <label asp-for="FavoriteDish">Favorite Dish:</label>
+        <input asp-for="FavoriteDish" />
+    </div>
+    <br />
+
+    @Html.LabelFor(Model => Model.Phone)
+    @Html.EditorFor(Model => Model.Phone)
+    @Html.ValidationMessageFor(Model => Model.Phone)
+
+    <br />
+    <br />
+
+    <button class="btn btn-primary" type="submit">Submit</button>
+
+</form>
